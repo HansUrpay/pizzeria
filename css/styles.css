@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #e5e5e5;
 }
 
 header {
@@ -31,6 +32,8 @@ header {
 
 .seccion-img-titulo img {
   margin: 15px 10px 5px 19px;
+  height: 80px;
+  width: 92px;
 }
 
 .seccion-img-titulo h1 {
@@ -69,6 +72,7 @@ main {
   background-image: url("../img/delivery.svg");
   flex-basis: 490px;
   height: 350px;
+  border-radius: 5px;
 }
 
 .promocion {
@@ -91,48 +95,62 @@ main {
 
 .podio-pizzas {
   background-image: none;
-  background-color: #39b24a;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
 }
 
 .podio-pizzas h2 {
+  color: #fc200c;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 84px;
 }
 
 .lista-pizzas {
-  height: 100%;
+  flex-grow: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .ranking-pizzas {
-  text-align: left;
+  margin: 0 0 50px 10px;
 }
 
 .ranking-pizzas h3 {
-  margin: 10px 0;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 ol li {
-  margin: 7px 0;
+  margin: 10px 0;
+  font-weight: bold;
 }
 
 footer {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   background-color: #222222;
   height: 146px;
   width: 100%;
+  padding: 19px 42px 19px 20px;
 }
 
-footer .seccion-img-titulo{
-    margin-right: 42px;
+.lista-footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 108px;
+}
+
+.img-footer img {
+  margin-right: 10px;
 }
 
 footer h2 {
-    font-size: 23px;
+  font-size: 23px;
 }
-
