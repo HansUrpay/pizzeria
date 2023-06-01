@@ -10,8 +10,6 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background-color: #e5e5e5;
 }
@@ -63,7 +61,6 @@ main {
   margin: auto;
   width: 986px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -109,10 +106,8 @@ main {
 }
 
 .lista-pizzas {
-  flex-grow: 1;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .ranking-pizzas {
   margin: 0 0 50px 10px;
