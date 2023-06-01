@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.seccion-img-titulo {
+  display: flex;
+  align-items: center;
+}
+
+.seccion-img-titulo img {
+  margin: 15px 10px 5px 19px;
+}
+
+.seccion-img-titulo h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.titulo-parte-1 {
+  height: 150px;
+  color: #39b24a;
+}
+
+.titulo-parte-2 {
+  color: #ffffff;
+}
+.titulo-parte-3 {
+  color: #fc200c;
+}
+
+.item-seccion {
+  display: inline-block;
+  color: #f3f3f3;
+  margin-right: 20px;
+}
+
+main {
+  margin: auto;
+  width: 986px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.promocion,
+.podio-pizzas {
+  background-image: url("../img/delivery.svg");
+  flex-basis: 490px;
+  height: 350px;
+}
+
+.promocion {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.promocion h2 {
+  margin: 20px 0 0 20px;
+}
+
+.subtitulo-1 {
+  color: #fc200c;
+}
+
+.subtitulo-2 {
+  color: #ffffff;
+}
+
+.podio-pizzas {
+  background-image: none;
+  background-color: #39b24a;
+  text-align: center;
+}
+
+.podio-pizzas h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-pizzas {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ranking-pizzas {
+  text-align: left;
+}
+
+.ranking-pizzas h3 {
+  margin: 10px 0;
+}
+
+ol li {
+  margin: 7px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  height: 146px;
+  width: 100%;
+}
+
+footer .seccion-img-titulo{
+    margin-right: 42px;
+}
+
+footer h2 {
+    font-size: 23px;
+}
+
